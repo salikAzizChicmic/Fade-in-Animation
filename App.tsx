@@ -229,9 +229,9 @@ function App(): React.JSX.Element {
           },
         ]}
       >
-      <Text style={{marginTop:40,fontSize:40,color:"white",fontWeight:"bold"}} >tria</Text>
-      <Text style={{marginTop:1,fontSize:20,color:"white"}} >{`One name,`}</Text>
-      <Text style={{marginTop:1,fontSize:20,color:"white"}} >{`all things Web3`}</Text>
+      <Text style={{marginTop:40,fontSize:40,color:"white",fontWeight:"bold",textAlign:'center'}} >tria</Text>
+      <Text style={{marginTop:1,fontSize:20,color:"white",textAlign:'center'}} >{`One name,`}</Text>
+      <Text style={{marginTop:1,fontSize:20,color:"white",textAlign:'center'}} >{`all things Web3`}</Text>
 
       </Animated.View>
       
